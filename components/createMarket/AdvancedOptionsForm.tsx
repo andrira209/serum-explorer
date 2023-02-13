@@ -67,10 +67,10 @@ export default function AdvancedOptionsForm({
               className="block w-full rounded-md p-2 bg-slate-700 border-gray-300 focus-style sm:text-sm"
               {...register("eventQueueLength", {
                 min: {
-                  value: 128,
+                  value: 8,
                   message: "Must be at least 128",
                 },
-                max: 2978,
+                max: 16,
                 required: true,
               })}
             />
@@ -125,10 +125,10 @@ export default function AdvancedOptionsForm({
               className="block w-full rounded-md p-2 bg-slate-700 border-gray-300 focus-style sm:text-sm"
               {...register("orderbookLength", {
                 min: {
-                  value: 201,
+                  value: 8,
                   message: "Must be at least 201",
                 },
-                max: 1000,
+                max: 16,
                 required: true,
               })}
             />

@@ -384,8 +384,8 @@ const CreateMarket = () => {
         quoteMint,
         baseLotSize: new BN(baseLotSize),
         quoteLotSize: new BN(quoteLotSize),
-        feeRateBps: 150, // Unused in v3
-        quoteDustThreshold: new BN(500), // Unused in v3
+        feeRateBps: 15, // Unused in v3
+        quoteDustThreshold: new BN(10), // Unused in v3
         vaultSignerNonce: vaultOwnerNonce,
         programId: programID,
       })
